@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "montseratt", sans-serif;
+ 
+}
+
+.App{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNYvPbas-1YdAxq6WJUovse3vvVOnpMjCtjg&usqp=CAU');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.App_warm{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzkMSVgb2IsysP2BOB8U_LIvi-2p1J8VUvhA&usqp=CAU');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+main{
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.search_box {
+  width: 100%;
+  margin: 0 0 75px;
+ 
+}
+
+.search_box .search_bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 10px 16px ;
+  margin-top: -25px;
+
+  box-shadow:   rgba(0, 0, 0, 0.2);
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+}
+
+.search_box .search_bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location_box .location{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+
+}
+.location_box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.weather_box {
+  text-align: center;
+
+}
+.weather_box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+
+
+  color:#fff;
+  padding: 15px 25px;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  text-align: center;
+}
+.weather_box .min {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700px;
+  
+}
+.weather_box .max {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700px;
+
+}
+.weather_box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700px;
+  text-shadow:2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.weather_box .humid {
+  color: #ffff;
+  font-size: 48px;
+  font-weight: 700px;
+  text-shadow:2px 2px rgba(255, 255, 255, 0.5);
+}
+.weather_box .wind {
+  color: #ffff;
+  font-size: 48px;
+  font-weight: 700px;
+  text-shadow:2px 2px rgba(255, 255, 255, 0.5);
+}
